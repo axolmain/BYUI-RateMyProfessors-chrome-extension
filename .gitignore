@@ -1,0 +1,23 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build directory
+build/
+
+# Ignore any files that are generated during development
+*.log
+*.env
+
+# Ignore any files that contain sensitive information
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore any files that are specific to your development environment
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore builds
+*.zip
